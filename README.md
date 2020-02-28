@@ -26,11 +26,28 @@ In this project you will create a login page and request a token from the server
 
 Demonstrate your understanding of this Sprint's concepts by answering the following free-form questions. Edit this document to include your answers after each question. Make sure to leave a blank line above and below your answer so it is clear and easy to read by your project manager.
 
-- [ ] Explain what a token is used for.
-- [ ] What steps can you take in your web apps to keep your data secure?
-- [ ] Describe how web servers work.
-- [ ] Which HTTP methods can be mapped to the CRUD acronym that we use when interfacing with APIs/Servers.
+- [x] Explain what a token is used for.
 
+      A token is used to secure data stored in a webpage until a person logs in with the correct password and username that will allow the token to be retrieved. this allows the user to access information. 
+
+      A token is used to authenticate a user. It is the process of determining if the caller says who they say they are.
+
+- [x] What steps can you take in your web apps to keep your data secure?
+
+      You can keep your web apps secure by including a token that can only be retrieved with the correct username/password, creating PrivateRoutes that can only be accessed once token is retrieved. You can also encrypt your data using https(secure)
+
+- [x] Describe how web servers work.
+
+      Web servers work by storing data in a database that can be accessed when requested. Web servers usually define endpoints which allow us to make a request to a web server using an API. They store, process, and deliver web pages to clients. Takes place using the HTTP. 
+
+- [x] Which HTTP methods can be mapped to the CRUD acronym that we use when interfacing with APIs/Servers.
+
+      Create(POST to a base URL) 
+      Read(GET retrieves a resource)
+      Update(PUT with existing URI - updates existing resource)
+      Delete(DELETE)
+
+      CRUD general way of exposing information to what you are storing. A user can access it by using CRUD. 
 
 ## Project Set Up
 
